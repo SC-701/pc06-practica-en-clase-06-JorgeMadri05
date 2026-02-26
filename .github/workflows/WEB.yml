@@ -12,14 +12,14 @@ name: Build and deploy Web App
 
 env:
   AZURE_WEBAPP_NAME: webVehiculo-sc701    # Change this to your Azure Web App name
-  AZURE_WEBAPP_PACKAGE_PATH: './Vehiculo.Web/Web'
+  AZURE_WEBAPP_PACKAGE_PATH: './Vehiculo.Web'
   DOTNET_VERSION: '8.0'
 
 on:
   push:
     branches: [ "main" ]
     paths:
-      - 'Vehiculos.WEB/WEB/**'
+      - 'Vehiculos.Web/**'
   workflow_dispatch:
 
 permissions:
