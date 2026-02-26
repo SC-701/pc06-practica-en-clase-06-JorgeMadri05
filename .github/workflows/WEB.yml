@@ -19,7 +19,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'Vehiculos.WEB/**'
+      - 'Vehiculos.WEB/WEB/**'
   workflow_dispatch:
 
 permissions:
